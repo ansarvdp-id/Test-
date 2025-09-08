@@ -1464,5 +1464,6 @@
         document.getElementById('close-edit-modal-btn').addEventListener('click', () => showModal('edit-post-modal', false));
         document.getElementById('save-edit-post-btn').addEventListener('click', async (e) => { const postId = e.target.dataset.postId; const newText = document.getElementById('edit-post-textarea').value.trim(); try { await db.ref(`posts/${postId}`).update({ text: newText }); alert('Post updated successfully!'); showModal('edit-post-modal', false); } catch (error) { console.error("Error updating post:", error); alert("Could not update post."); } });
     </script>
+<script type='text/javascript' src='//pl27459006.revenuecpmgate.com/b7/63/21/b763218a911e69b86f35cf5b1eeec764.js'></script>    
 </body>
 </html>
